@@ -52,13 +52,6 @@ class Receipt {
     }
     
     
-//    func output() {
-//        print("Items in Receipt:")
-//        for item in scannedItems {
-//            print("\(item.name) - $\(item.price() / 100).\(item.price() % 100)")
-//        }
-//    }
-    
     func output() -> String {
             var receiptText = "Receipt:\n"
                 for item in scannedItems {
